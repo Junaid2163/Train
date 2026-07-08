@@ -1,2 +1,3 @@
-for index in range(10):
-    print(index)
+friends = ["Alice", "Bob", "Charlie", "David", "Eve"]
+for index in range(len(friends)):
+    print(friends[index])
