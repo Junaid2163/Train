@@ -4,4 +4,6 @@ number_grid=[
     [7, 8, 9],
     [0]
 ]
-print(number_grid[3][0])  # Output: 0
+for row in number_grid:
+    for col in row:
+        print(col)
