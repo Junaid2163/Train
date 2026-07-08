@@ -1,12 +1,7 @@
-friends =["Alice", "Bob", "Charlie", "David", "Eve"]
-for index in range(5):
-    if index == 0:
-        print("first iteration")
-    elif index == 1:
-        print("second iteration")   
-    elif index == 2:            
-        print("third iteration")
-    elif index == 3:
-        print("fourth iteration")
-else:
-    print(" No iteration")
+def raise_to_power(base_num, pow_num):
+    result = 1
+    for index in range(pow_num):
+        result= result * base_num
+    return result
+    
+print(raise_to_power(3,9))
